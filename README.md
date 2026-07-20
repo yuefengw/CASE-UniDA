@@ -4,7 +4,7 @@ Official repository for the paper:
 
 > **Cross-modal Semantic Anchoring Alignment and Structure Enhancement for Universal Domain Adaptation**
 
-Accepted by **IEEE Transactions on Multimedia (TMM)**.
+Accepted by **IEEE Transactions on Multimedia (TMM)** and **code will be released soon**.
 
 ## News
 
