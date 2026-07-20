@@ -1,0 +1,496 @@
+rolodex
+cartridge fuse
+nailfile
+display adapter
+stylus
+white pages
+brown cup
+bike helmet
+felt-tip pen
+white book
+pipe rack
+student lamp
+keyboard
+pliers
+church mouse
+yardstick
+beer mug
+slide fastener
+soup bowl
+recycling bin
+office furniture
+speaker
+file allocation table
+safety razor
+desktop computer
+jumping mouse
+table lamp
+cutting implement
+lemon juice
+portable
+power pack
+bone-ash cup
+supply closet
+laptop
+electric toothbrush
+medical literature analysis and retrieval system
+receptacle
+unicycle
+dictaphone
+hydrometer
+desk chair
+ring binder
+root beer
+moleskin
+bicycle clip
+xerographic printer
+phone-in
+fruit juice
+disk drive
+push-button radio
+ophthalmoscope
+file cabinet
+computer graphics
+lapboard
+bowl
+stenograph
+paper white
+printing unit
+copyholder
+cigar cutter
+camera tripod
+glasses case
+stoneware
+bicycle-built-for-two
+eyecup
+densitometer
+ergonovine
+margaric acid
+carpetbag
+bicycle rack
+plier
+duffel bag
+photometer
+ferrite
+locker
+impact printer
+soft drink
+ballistic pendulum
+hearing impairment
+walkman
+ink eraser
+desk
+straightener
+magnetic storage medium
+mobile
+earmuff
+cochlearius
+laportea
+character printer
+clasp knife
+movie projector
+paper cutter
+land line
+carbon arc lamp
+digital computer
+television receiver
+colorimeter
+helmet
+tape dispenser
+plate rack
+tankard
+aspirator
+loupe
+clock radio
+ballpoint
+mouse
+dedicated file server
+etui
+polyphone
+stylet
+casque
+mouse button
+disk cache
+television camera
+specimen bottle
+black felt cup
+vertical file
+glutamine
+worcester sauce
+computerized axial tomography scanner
+printer
+inhaler
+storage space
+push-down storage
+bose
+otoscope
+giro account
+mountain bike
+highboard
+pencil box
+telephone system
+stanchion
+chair
+handset
+desk phone
+storage
+monitor program
+mobile phone
+orinasal phone
+number cruncher
+auto accessory
+wall socket
+eyebrow pencil
+surveillance system
+internal drive
+workbook
+watch key
+massicot
+touch typing
+computer file
+spectrophotometer
+shoulder bag
+file server
+nib
+hackwork
+chair of state
+bottled water
+flat file
+reference manual
+sash fastener
+slate pencil
+polaroid camera
+modem
+tonometer
+platinum black
+gulp
+copybook
+xerox
+check register
+binder
+cd-rom drive
+slip-joint pliers
+magnetic bottle
+friction tape
+insole
+crash helmet
+modicon
+scalpel
+razor
+electronic surveillance
+computer screen
+stirrup
+slide rule
+snips
+sharpener
+beeper
+bin liner
+needlenose pliers
+tie clip
+headphones
+scanner
+click-clack
+workbasket
+blue book
+sophomore class
+library catalog
+bulldog clip
+tensimeter
+clipboard
+metric linear unit
+magazine rack
+mug
+logbook
+sigmoidoscope
+garment bag
+second joint
+gastroscope
+desk dictionary
+casework
+acetal
+sodium-vapor lamp
+united states army criminal investigation laboratory
+depressor
+portable computer
+penknife
+bracelet
+telecommuting
+cassette recorder
+computer system
+rack
+cufflink
+letter paper
+casebook
+computerized tomography
+non-dedicated file server
+telephone jack
+acoustic modem
+genipap
+coffee mug
+proportional counter tube
+promptbook
+garbage collection
+soy sauce
+oximeter
+workspace
+push-bike
+television monitor
+chocolate milk
+yearbook
+carrel
+bicycling
+mug file
+digital camera
+pedometer
+thinning shears
+electrosleep
+pail
+monograph
+demitasse
+diathermy
+differential analyzer
+dowel
+a-scan ultrasonography
+high-definition television
+fruit punch
+computer network
+travel iron
+laser printer
+brake pedal
+canola oil
+cd drive
+thermal printer
+hazel mouse
+shelf bracket
+sewing needle
+biometrics
+new world mouse
+trackball
+parts bin
+schoolbag
+writing implement
+gamebag
+lacquerware
+micrometer
+safety bicycle
+wool stapler
+fruit drink
+dial telephone
+journal box
+franking machine
+harmonica
+homeobox
+thermohydrometer
+ink cartridge
+adapter
+litter
+antifreeze
+cola
+telecommunication system
+stud finder
+cardcase
+pop bottle
+notebook
+adhesive tape
+home computer
+rubber eraser
+wall unit
+notepaper
+front projector
+calculator
+camcorder
+webcam
+call forwarding
+punch pliers
+carbon black
+notepad
+speakerphone
+arc lamp
+kinesis
+lens cap
+ramekin
+drawers
+router
+control key
+analog computer
+dell
+post-office box
+vernier scale
+easy chair
+book bag
+skid lid
+optical pyrometer
+removable disk
+computer memory unit
+shears
+inverter
+pencil
+ski binding
+coca cola
+auditory image
+lemonade mix
+cubicity
+orange soda
+sarsaparilla
+coffee cup
+space bar
+mezuzah
+scissors
+lead pencil
+writing paper
+supercomputer
+brompton stock
+workstation
+boron counter tube
+microwave diathermy machine
+audio
+breathalyzer
+lemonade
+sound camera
+multifocal lens implant
+black box
+ferrule
+shift key
+straight chair
+reading lamp
+cream pitcher
+handbook
+face guard
+coffee can
+raleigh
+spark advance
+wristband
+cryometer
+computer
+bin
+computer accessory
+chain printer
+standing press
+pen
+bookcase
+telephone
+external drive
+bookend
+kazoo
+directional microphone
+briefcase computer
+drinking vessel
+photocopier
+tricolor television tube
+safety fuse
+mousepad
+litterbin
+clip-on
+interphone
+waste paper
+earphone
+remote control
+blackboard eraser
+cellular telephone
+telephone receiver
+audiometer
+speech intelligibility
+penlight
+electronic balance
+dot matrix printer
+projector
+phone
+computer keyboard
+coffee liqueur
+frappe
+laminator
+b-scan ultrasonography
+putter
+overhead projector
+acoustic storage
+page printer
+dongle
+tablet-armed chair
+digital-analog converter
+polarimeter
+file clerk
+freshman class
+paper notebook
+bike
+data input device
+bin laden
+shoe bomb
+electric lamp
+computer monitor
+dust cover
+three-quarter binding
+monitor
+visor
+baton
+whitecap
+lemon extract
+placement office
+slide projector
+adding machine
+macintosh
+line printer
+green paper
+pencil sharpener
+etagere
+ink-jet printer
+diapir
+breathing device
+wire matrix printer
+hemostat
+juice
+anvil
+personal computer
+giro
+dual scan display
+hand calculator
+back pack
+appointment book
+life office
+stapler
+television equipment
+coke
+wrist pin
+trail bike
+watchband
+cola extract
+hand-held computer
+shelf
+autograph album
+speaker identification
+filing
+trash can
+desk lamp
+piroxicam
+headset
+coca
+recycling
+sunlamp
+surveillance
+wrist pad
+studbook
+foolscap
+ruler
+vernier caliper
+iced coffee
+taboret
+postage meter
+kickstand
+dip switch
+bicycle seat
+backpack
+swivel chair
+mocha
+earplug
+bicycle
+wastepaper basket
+measuring unit
+microvolt
+bookshelf
+birch beer
+help desk
+laptop computer
+city desk
+densimeter
+keystroke
+writing board
+spirometer

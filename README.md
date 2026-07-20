@@ -1,83 +1,98 @@
 # CASE: Cross-modal Semantic Anchoring Alignment and Structure Enhancement for Universal Domain Adaptation
 
-Official repository for the paper:
+Official PyTorch implementation of **CASE**, accepted by [IEEE Transactions on Multimedia (TMM)](https://github.com/yuefengw/CASE-UniDA).
 
-> **Cross-modal Semantic Anchoring Alignment and Structure Enhancement for Universal Domain Adaptation**
+## Overview
 
-Accepted by **IEEE Transactions on Multimedia (TMM)** and **code will be released soon**.
+Universal Domain Adaptation (UniDA) transfers knowledge from a labeled source domain to an unlabeled target domain when label sets only partially overlap. CASE addresses this with two modules:
 
-## News
+- **CSA (Cross-modal Semantic Anchoring Alignment):** builds a shared semantic anchor space and aligns cross-domain samples via JS-divergence-weighted contrastive learning.
+- **SSE (Semantic Structure Enhancement):** aggregates anchor responses with K-Means clustering and feeds the enhanced representation to an All-in-One (AIO) classifier for unknown-class detection.
 
-- **July 2026:** Our paper has been accepted by IEEE Transactions on Multimedia.
-- The source code, configuration files, pretrained models, and reproduction instructions are currently being organized and will be released soon.
+Backbone: frozen CLIP ViT-B/16 + lightweight MLP-Attention-MLP adapter (~3.15M trainable parameters).
 
-## Introduction
+## Environment
 
-Universal Domain Adaptation (UniDA) aims to transfer knowledge from a labeled source domain to an unlabeled target domain without prior knowledge of the target label set.
+```bash
+conda create -n case python=3.10 -y
+conda activate case
+pip install -r requirements.txt
+python -c "import nltk; nltk.download('wordnet')"
+```
 
-UniDA involves two key challenges:
+Download CLIP ViT-B/16 weights to `ckpt/clip/ViT-B-16.pt` (see [OpenAI CLIP](https://github.com/openai/CLIP)).
 
-1. Aligning shared-class samples across different domains.
-2. Accurately identifying unknown-class samples in the target domain.
+## Data Preparation
 
-To address these challenges, we propose **CASE**, a novel UniDA framework that incorporates cross-modal semantic information.
+1. Download benchmark datasets and place images following the list files under `DataSets/`.
+2. Extract CLIP features:
 
-CASE consists of two main components:
+```bash
+python get_features.py --dataset OfficeHome
+python get_features.py --dataset Office
+python get_features.py --dataset VisDA
+python get_features.py --dataset DomainNet
+```
 
-- **Cross-modal Semantic Anchoring Alignment (CSA):**  
-  Constructs a shared semantic anchor space between the source and target domains, enabling semantic-guided cross-domain alignment.
+3. Build semantic anchors (once per domain, or use the provided `labels_anchor/` files):
 
-- **Semantic Structure Enhancement (SSE):**  
-  Integrates class-level semantic information into image representations to improve the separability between known and unknown classes.
-
-Experiments on several standard Universal Domain Adaptation benchmarks demonstrate the effectiveness of CASE.
-
-## Framework
-
-The overall framework and detailed method illustration will be added soon.
-
-## Code Release
-
-The implementation is currently being cleaned and documented.
-
-The following resources will be released in this repository:
-
-- [ ] Source code
-- [ ] Environment configuration
-- [ ] Dataset preparation instructions
-- [ ] Training scripts
-- [ ] Evaluation scripts
-- [ ] Pretrained models
-- [ ] Reproduction instructions
-- [ ] Experimental logs
-
-Please stay tuned.
-
-## Installation
-
-Installation instructions will be provided together with the source code.
-
-## Dataset Preparation
-
-Dataset preparation instructions will be released soon.
+```bash
+python build_anchors.py --dataset OfficeHome --domain Art --topk 2
+```
 
 ## Training
 
-Training commands and configuration files will be released soon.
+Single task:
 
-## Evaluation
+```bash
+python train.py --dataset OfficeHome --source Art --target Clipart
+```
 
-Evaluation scripts and pretrained checkpoints will be released soon.
+Run all domain pairs:
+
+```bash
+python train.py --dataset OfficeHome
+```
+
+Main hyperparameters (defaults match the paper):
+
+| Parameter | Default |
+|-----------|---------|
+| epochs | 80 |
+| batch size | 36 |
+| learning rate | 1e-3 |
+| anchor top-k | 2 |
+| evaluation | average H-score over last 10 epochs |
+
+UniDA class splits: Office (10/10/11), OfficeHome (10/5/50), VisDA (6/6/6), DomainNet (150/50/145).
+
+## Project Structure
+
+```
+CASE-UniDA/
+├── train.py           # training & evaluation
+├── model.py           # CASE (CSA + SSE + AIO)
+├── data.py            # dataset loaders & class splits
+├── utils.py           # labels, templates, helpers
+├── get_features.py    # CLIP feature extraction
+├── build_anchors.py   # semantic anchor construction
+├── labels_anchor/     # pre-built anchor vocabularies
+└── DataSets/          # dataset index files
+```
 
 ## Citation
 
-If you find this work useful, please consider citing our paper.
-
-The BibTeX entry will be updated after the paper is officially published online.
+If you find this work useful, please cite:
 
 ```bibtex
-@article{case_unida_2026,
-  title   = {Cross-modal Semantic Anchoring Alignment and Structure Enhancement for Universal Domain Adaptation},
-  journal = {IEEE Transactions on Multimedia},
-  year    = {2026}
+@article{li2026case,
+  title={Cross-modal Semantic Anchoring Alignment and Structure Enhancement for Universal Domain Adaptation},
+  author={Li, Feijiang and Wang, Yuefeng and Qian, Yuhua and Wang, Jieting},
+  journal={IEEE Transactions on Multimedia},
+  year={2026}
 }
+```
+
+## License
+
+This project is released for academic research use.
