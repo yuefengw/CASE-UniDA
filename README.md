@@ -4,13 +4,16 @@ Official PyTorch implementation of **CASE**, accepted by [IEEE Transactions on M
 
 ## Overview
 
+<p align="center">
+  <img src="./assets/frame.png" width="95%">
+</p>
+
 Universal Domain Adaptation (UniDA) transfers knowledge from a labeled source domain to an unlabeled target domain when label sets only partially overlap. CASE addresses this with two modules:
 
 - **CSA (Cross-modal Semantic Anchoring Alignment):** builds a shared semantic anchor space and aligns cross-domain samples via JS-divergence-weighted contrastive learning.
 - **SSE (Semantic Structure Enhancement):** aggregates anchor responses with K-Means clustering and feeds the enhanced representation to an All-in-One (AIO) classifier for unknown-class detection.
 
 Backbone: frozen CLIP ViT-B/16 + lightweight MLP-Attention-MLP adapter (~3.15M trainable parameters).
-[View the framework figure](./frame.pdf)
 ## Environment
 
 ```bash
