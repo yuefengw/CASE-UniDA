@@ -10,7 +10,7 @@ Universal Domain Adaptation (UniDA) transfers knowledge from a labeled source do
 - **SSE (Semantic Structure Enhancement):** aggregates anchor responses with K-Means clustering and feeds the enhanced representation to an All-in-One (AIO) classifier for unknown-class detection.
 
 Backbone: frozen CLIP ViT-B/16 + lightweight MLP-Attention-MLP adapter (~3.15M trainable parameters).
-
+[View the framework figure](./frame.pdf)
 ## Environment
 
 ```bash
