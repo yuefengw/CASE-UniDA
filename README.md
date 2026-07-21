@@ -57,7 +57,7 @@ Run all domain pairs:
 python train.py --dataset OfficeHome
 ```
 
-Main hyperparameters (defaults match the paper):
+Main hyperparameters :
 
 | Parameter | Default |
 |-----------|---------|
