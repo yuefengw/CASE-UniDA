@@ -5,7 +5,7 @@ Official PyTorch implementation of **CASE**, accepted by [IEEE Transactions on M
 ## Overview
 
 <p align="center">
-  <img src="./assets/frame.png" width="95%">
+  <img src="./frame.png" width="95%">
 </p>
 
 Universal Domain Adaptation (UniDA) transfers knowledge from a labeled source domain to an unlabeled target domain when label sets only partially overlap. CASE addresses this with two modules:
